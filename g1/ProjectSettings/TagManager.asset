@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Finish 1levl
+  - Coin
+  - Coins
+  - "\u0448\u0438\u043F \u043B\u0435\u0432\u043B 2"
+  - Rocet
+  - StoneBlock
+  - cheackpoint
+  - cheackpoint2
+  - mob
+  - killmob
+  - "\u0448\u0438\u043F2\u044F\u0440"
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
