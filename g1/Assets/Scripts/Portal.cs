@@ -28,6 +28,7 @@ public class Portal : MonoBehaviour
                 SceneManager.LoadScene(2);
                 MoneyText2lvl.Coins2lvl = MoneyText.Coins;
                 attempText2lvl.PlayerGo = attempText.PlayerGo;
+                PlayerPrefs.SetInt("Whatlevle", 2);
         }
 
     }

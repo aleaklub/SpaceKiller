@@ -16,7 +16,7 @@ public class PlayerGo : MonoBehaviour {
     public float normalSpeed;
 
 
-
+    
 
 
 
@@ -87,7 +87,7 @@ public void OnLeftButtonDown()
        if (other.tag == "Respawn")
        {
             
-            //MoneyText.Coins = 0;
+            
 
             
            
@@ -104,10 +104,11 @@ public void OnLeftButtonDown()
           
             transform.position = new Vector2(66,0);
             MoneyText2lvl.Coins2lvl = MoneyText.Coins;
-            
             attempText2lvl.PlayerGo += 1;
+            HP.HPcount -= 1;
+            StartCoroutine(Tik());
 
-           
+
 
         }
         if (other.tag == "Rocet")
@@ -146,8 +147,10 @@ public void OnLeftButtonDown()
     public IEnumerator Tik()
     {
         speed = speed*-1;
+        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         yield return new WaitForSeconds(0.5f);
         speed = 0;
+        
 
 
 
